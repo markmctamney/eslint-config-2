@@ -1,0 +1,4 @@
+{
+  "name": "eslint-config",
+  "packageManager": "yarn@3.0.1"
+}
