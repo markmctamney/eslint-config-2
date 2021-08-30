@@ -6,13 +6,11 @@
       "rootDir": "src",
       "baseUrl": "src",
       "module": "CommonJS",
-      "target": "ES3",
       "lib": ["ESNext"],
       "moduleResolution": "node",
       "declaration": true,
       "skipLibCheck": true,
-      "strictNullChecks": true,
-      "typeRoots": ["node_modules/@types"]
+      "strictNullChecks": true
   },
 
   "include": ["./src"],
