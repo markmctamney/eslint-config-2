@@ -7,7 +7,13 @@
       "baseUrl": "src",
       "module": "CommonJS",
       "target": "ES3",
-      "types": ["node"]
+      "lib": ["ESNext"],
+      "moduleResolution": "node",
+      "types": ["node"],
+      "declaration": true,
+      "skipLibCheck": true,
+      "strictNullChecks": true,
+      "typeRoots": ["node_modules/@types"]
   },
 
   "include": ["./src"],
