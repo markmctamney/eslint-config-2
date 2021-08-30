@@ -1,5 +1,5 @@
 {
-  "name": "@markmctamney/eslint-config",
+  "name": "eslint-config-markmctamney",
   "version": "0.0.1",
   "license": "MIT",
   "author": "Mark McTamney",
