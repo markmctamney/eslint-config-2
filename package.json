@@ -1,6 +1,7 @@
 {
   "name": "@markmctamney/eslint-config",
   "version": "0.0.1",
+  "license": "MIT",
   "author": "Mark McTamney",
   "packageManager": "yarn@3.0.1",
   "main": "build/default.js",
