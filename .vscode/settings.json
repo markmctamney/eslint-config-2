@@ -1,1 +1,43 @@
-{}
+{
+  "editor.autoIndent": "full",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 8,
+  "editor.wordWrap": "on",
+  "editor.codeActionsOnSave": {
+    // "source.removeUnused": true,
+    "source.addMissingImports": true,
+    "source.fixAll": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.format.enable": true,
+  "eslint.debug": false,
+  "eslint.packageManager": "yarn",
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.probe": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "html",
+    "vue",
+    "markdown",
+    "json",
+    "jsonc",
+    "json5"
+  ],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "json",
+    "jsonc",
+    "json5",
+    "yaml",
+    "toml"
+  ],
+  "eslint.nodePath": ".yarn/sdks"
+}

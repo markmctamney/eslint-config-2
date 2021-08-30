@@ -1,0 +1,18 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+
+    "compilerOptions": {
+      "rootDir": "src",
+      "baseUrl": "src",
+      "module": "CommonJS",
+      "target": "ES3",
+      "types": ["node"]
+  },
+
+  "include": ["./src"],
+  "exclude": ["**/__mocks__/*", "**/__tests__/*"],
+
+  "buildOptions": {
+      "incremental": true
+  }
+}
