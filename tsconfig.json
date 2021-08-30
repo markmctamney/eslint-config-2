@@ -9,7 +9,6 @@
       "target": "ES3",
       "lib": ["ESNext"],
       "moduleResolution": "node",
-      "types": ["node"],
       "declaration": true,
       "skipLibCheck": true,
       "strictNullChecks": true,

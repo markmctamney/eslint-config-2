@@ -6,6 +6,9 @@
   "main": "build/default.js",
   "source": "src/default.ts",
   "types": "build/default.d.ts",
+  "scripts": {
+    "tsc": "tsc"
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.29.3",
     "@typescript-eslint/parser": "^4.29.3",
@@ -30,13 +33,12 @@
   "peerDependenciesMeta": {
     "@babel/core": {
       "optional": true
+    },
+    "graphql": {
+      "optional": true
     }
   },
   "devDependencies": {
-    "@types/eslint": "^7.28.0",
-    "@types/eslint-plugin-prettier": "^3.1.0",
-    "@types/node": "^16.7.6",
-    "@yarnpkg/pnpify": "^3.0.1",
     "eslint": "^7.32.0",
     "graphql": "^15.5.1",
     "prettier": "^2.3.2",
