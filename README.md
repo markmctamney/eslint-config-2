@@ -12,6 +12,7 @@
 - JavaScript
 - JSON (`.json`, `.jsonc`, `.json5`)
 - YAML (`.yaml)
+- GraphQL
 
 ### Frameworks:
 
