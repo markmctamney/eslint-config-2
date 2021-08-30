@@ -5,18 +5,19 @@
       "outDir": "build",
       "rootDir": "src",
       "baseUrl": "src",
-      "module": "CommonJS",
+      "module": "amd",
       "lib": ["ESNext"],
       "moduleResolution": "node",
       "declaration": true,
       "skipLibCheck": true,
+      "types": ["node"],
       "strictNullChecks": true
   },
 
   "include": ["./src"],
   "exclude": ["**/__mocks__/*", "**/__tests__/*"],
 
-  "buildOptions": {
-      "incremental": true
-  }
+  // "buildOptions": {
+  //     "incremental": true
+  // }
 }

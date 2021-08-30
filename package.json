@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "license": "MIT",
   "author": "Mark McTamney",
+  "repository": "https://github.com/markmctamney/eslint-config",
   "packageManager": "yarn@3.0.1",
   "main": "build/default.js",
   "source": "src/default.ts",
@@ -40,6 +41,7 @@
     }
   },
   "devDependencies": {
+    "@types/node": "^16.7.6",
     "eslint": "^7.32.0",
     "graphql": "^15.5.1",
     "prettier": "^2.3.2",
